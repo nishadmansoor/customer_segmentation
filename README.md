@@ -5,18 +5,18 @@ A Streamlit app that segments retail customers using **RFM + CLV** and translate
 ---
 
 ## Project Tasks
-- Engineers **RFM** features (Recency, Frequency, Monetary)
-- Estimates/aggregates **Customer Lifetime Value (CLV)**
-- Assigns customers into meaningful segments (e.g., Champions, Loyal, At Risk, Lost)
+* Engineers **RFM** features (Recency, Frequency, Monetary)
+* Estimates/aggregates **Customer Lifetime Value (CLV)**
+* Assigns customers into meaningful segments (e.g., Champions, Loyal, At Risk, Lost)
 
 ---
 
 ## Pages
-- **Home** — Project overview + how to navigate the app
-- **Analysis** — Curated technical summary (RFM/CLV logic + key charts)
-- **Dashboard** — Executive dashboard view (PowerBI visuals)
-- **Insights** — Takeaways that tie metrics → retention opportunities
-- **Strategy** — Segment-based marketing actions (what to do next)
+* **Home** — Project overview + how to navigate the app
+* **Analysis** — Curated technical summary (RFM/CLV logic + key charts)
+* **Dashboard** — Executive dashboard view (PowerBI visuals)
+* **Insights** — Takeaways that tie metrics → retention opportunities
+* **Strategy** — Segment-based marketing actions (what to do next)
 
 ---
 
@@ -28,9 +28,10 @@ A Streamlit app that segments retail customers using **RFM + CLV** and translate
 
 ---
 
-## How to Run 
-
-### 1) Install dependencies
+## How to Run
 ```bash
+git clone [https://github.com/nishadmansoor/customer_segmentation.git](https://github.com/nishadmansoor/customer_segmentation.git)
+cd customer_segmentation
+
 pip install -r requirements.txt
 streamlit run Home.py
