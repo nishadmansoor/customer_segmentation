@@ -1,1 +1,0 @@
-#Reverse Turing Test
